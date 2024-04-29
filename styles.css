@@ -8,6 +8,10 @@
 
 /* Base styles */
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #292C33;
