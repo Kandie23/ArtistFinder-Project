@@ -8,8 +8,9 @@
 
 /* Base styles */
 
-.body {
+body {
     font-family: 'Poppins', sans-serif;
     color: #292C33;
     background-color: #EEEFF3;
+    overflow-x: hidden;
 }
