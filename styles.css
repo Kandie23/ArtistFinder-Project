@@ -15,6 +15,16 @@ a{
     color: inherit;
 }
 
+
+/* Keyframes */ 
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        transform: ;
+    }
+}
+
+
 /* Base styles */
 
 html {
@@ -40,11 +50,13 @@ body {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
-    margin: 0, auto;
+    margin: 0 auto;
+    padding: 25px;
 }
 
 .logo {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 30px;
 }
 
 .nav {
