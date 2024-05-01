@@ -15,6 +15,13 @@ a{
     color: inherit;
 }
 
+input,
+button {
+    border: none;
+    font: inherit;
+}
+
+
 
 /* Keyframes */ 
 @keyframes fade-in{
@@ -115,3 +122,57 @@ border-radius: 3px;
     box-shadow: 0 4px 44px rgb(0, 0, 0, 0.07);
     animation: fade-in 0.4s 0.1s backwards;
 }
+
+/* Intro section */
+
+.intro {
+    display: flex;
+}
+
+.search {
+    background-color: #f3f5fa;
+    flex: 1;
+}
+
+.first-heading {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    max-width: 383px;
+}
+
+.emphasis {
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.form {
+
+}
+
+.input {
+
+}
+
+.input-icon {
+
+}
+
+.btn {
+
+}
+
+.photos {
+    display: flex;
+}
+
+.photo-1 {
+    display: block;
+}
+
+.photo-2 {
+    display: block;
+}
+
