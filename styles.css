@@ -20,7 +20,12 @@ a{
 @keyframes fade-in{
     0%{
         opacity: 0;
-        transform: ;
+        transform: translateY(15px);
+    }
+
+    100%{
+        opacity: 100;
+        transform: translateY(0);
     }
 }
 
@@ -52,6 +57,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 25px;
+    /* animation: fade-in 0.4s; */
 }
 
 .logo {
