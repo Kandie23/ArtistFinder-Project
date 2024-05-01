@@ -57,7 +57,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 25px;
-    /* animation: fade-in 0.4s; */
+    animation: fade-in 0.4s;
 }
 
 .logo {
@@ -112,5 +112,6 @@ border-radius: 3px;
     margin: 0 auto;
     border-radius: 5px;
     margin-bottom: 35px;
-    box-shadow: 0 4px 44px rgb(0, 0, 0);
+    box-shadow: 0 4px 44px rgb(0, 0, 0, 0.07);
+    animation: fade-in 0.4s 0.1s backwards;
 }
