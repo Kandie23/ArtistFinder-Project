@@ -91,5 +91,16 @@ body {
 }
 
 .link--btn{
-
+color: #fff;
+background-color: #11a2f3;
+padding: 10px 18px;
+border-radius: 3px;
 }
+
+.link--btn:hover {
+    background-color: #0d8fda;
+    transform: all 0.2s;
+}
+
+
+/* Main */
