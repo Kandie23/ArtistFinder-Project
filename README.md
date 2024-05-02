@@ -1,2 +1,3 @@
 Artist finder website.
-This 
+
+This site helps people find artists and types of artists.
