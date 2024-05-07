@@ -168,8 +168,9 @@ border-radius: 3px;
 
 .btn {
     width: 100px;
-    fonr-size: 17px;
-    upp
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .photos {
