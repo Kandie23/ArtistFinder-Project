@@ -44,6 +44,11 @@ button {
 
 
 html {
+
+    --accent-color:#11A2F3;
+    --accent-dark:#0d8fda;
+
+
     overflow-x: hidden;
 }
 
@@ -103,13 +108,13 @@ body {
 
 .link--btn{
 color: #fff;
-background-color: #11a2f3;
+background-color: var(--accent-color);
 padding: 10px 18px;
 border-radius: 3px;
 }
 
 .link--btn:hover {
-    background-color: #0d8fda;
+    background-color: var(--accent-dark);
     transform: all 0.2s;
 }
 
@@ -171,6 +176,10 @@ border-radius: 3px;
     font-size: 17px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 2px;
+    background: var(--accent-color);
 }
 
 .photos {
