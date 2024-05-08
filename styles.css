@@ -144,6 +144,12 @@ border-radius: 3px;
 .search {
     background-color: #f3f5fa;
     flex: 1;
+    padding-bottom: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .first-heading {
@@ -163,15 +169,22 @@ border-radius: 3px;
 .form {
     width: 383px;
 
+
 }
 
 .input {
     height: 61px;
     width: 100px;
+    padding-left: 53px;
+    font-size: 17px;
+    border-radius: 2px;
+    margin-bottom: 12px;
 }
 
 .input-icon {
-    
+    font-size: 17px;
+    position: absolute;
+    color: #adb4c2;
 }
 
 .btn {
